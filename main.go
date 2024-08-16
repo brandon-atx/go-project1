@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	"github.com/ichtrojan/go-todo/routes"
+	"github.com/brandon-atx/go-project1/routes"
 	"github.com/ichtrojan/thoth"
 	"github.com/joho/godotenv"
 	"log"

@@ -1,14 +1,14 @@
 package config
 
 import (
-	"database/sql"
-	"errors"
-	"fmt"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/ichtrojan/thoth"
-	_ "github.com/joho/godotenv/autoload"
-	"log"
-	"os"
+    "database/sql"
+    "errors"
+    "fmt"
+    "github.com/ichtrojan/thoth"
+    _ "github.com/joho/godotenv/autoload"
+    _ "github.com/lib/pq"
+    "log"
+    "os"
 )
 
 func Database() *sql.DB {

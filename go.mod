@@ -1,4 +1,4 @@
-module github.com/ichtrojan/go-todo
+module github.com/brandon-atx/go-project1
 
 go 1.13
 
