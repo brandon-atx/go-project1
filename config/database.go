@@ -35,9 +35,9 @@ func Database() *sql.DB {
 		log.Fatal("DB_HOST not set in .env")
 	}
 
-	credentials := fmt.Sprintf("%s:%s@(%s:3306)/?charset=utf8&parseTime=True", user, pass, host)
+	credentials := fmt.Sprintf("%s:%s@(%s:5572)/?charset=utf8&parseTime=True", user, pass, host)
 
-	database, err := sql.Open("mysql", credentials)
+	database, err := sql.Open("postgres", credentials)
 
 	if err != nil {
 		logger.Log(err)
